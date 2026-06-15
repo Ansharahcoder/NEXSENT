@@ -2,11 +2,11 @@
     --primarycolor:#4CAF4F;
     --primary:#18191F;
 }
-.primarycolor{
-    color: var(--primarycolor);
+.textgreen{
+    color: var(--primarycolor) !;
 }
-.primarycolor :hover{
-    color: var(--primarycolor);
+.textgreen:hover{
+    color: var(--primarycolor) !important;
 }
 .bggreen{
     background-color: var(--primarycolor);
@@ -18,4 +18,19 @@
 }
 .blackcolor{
     color: var(--primary) !important;
+}
+.textcolor{
+    color: var(--primarycolor);
+}
+.greencolor{
+    color: var(--primarycolor); !important
+}
+.bgcolor{
+    background-color: var(--primarycolor);
+}
+.bgcolor:hover{
+    background-color: var(--primarycolor);
+}
+.blackcolor{
+    color: var(--primary !important);
 }
