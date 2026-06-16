@@ -3,7 +3,8 @@
     --primary:#18191F;
 }
 .textgreen{
-    color: var(--primarycolor) !;
+    color: var(--primarycolor) !important;
+    border-radius: none !important;
 }
 .textgreen:hover{
     color: var(--primarycolor) !important;
@@ -19,18 +20,6 @@
 .blackcolor{
     color: var(--primary) !important;
 }
-.textcolor{
-    color: var(--primarycolor);
-}
-.greencolor{
-    color: var(--primarycolor); !important
-}
-.bgcolor{
-    background-color: var(--primarycolor);
-}
-.bgcolor:hover{
-    background-color: var(--primarycolor);
-}
-.blackcolor{
-    color: var(--primary !important);
+.customcolor{
+    color: var(--primarycolor) !important;
 }
