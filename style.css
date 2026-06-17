@@ -23,3 +23,21 @@
 .customcolor{
     color: var(--primarycolor) !important;
 }
+.bg-hero{
+    background-color: #F5F7FA;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+.sixe{
+    width: 50%;
+}
+    
+}
