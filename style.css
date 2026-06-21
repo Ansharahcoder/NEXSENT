@@ -34,9 +34,13 @@
     background-color:  #F5F7FA;
 ;
 }
-
-
-
+.btn-size {
+    width: 8%;
+}
+.footer{
+    background-color: #263238;
+;
+}
 
 
 
@@ -46,5 +50,14 @@
 .sixe{
     width: 50%;
 }
-    
+  .btn-size{
+    width: 40%;
+  }  
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+
+  .btn-size{
+    width: 20%;
+  }  
 }
