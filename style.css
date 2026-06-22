@@ -41,8 +41,12 @@
     background-color: #263238;
 ;
 }
-
-
+.footer-grey{
+    background-color: #515b60 !important;
+}
+.footer-grey ::placeholder{
+    color: white !important;
+}
 
 
 
