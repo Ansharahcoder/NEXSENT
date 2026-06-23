@@ -47,21 +47,24 @@
 .footer-grey ::placeholder{
     color: white !important;
 }
-
-
+.btn-size{
+    width: 15% !important;
+}
 
 @media screen and (max-width:576px){
-.sixe{
-    width: 50%;
+.size{
+    width: 50% !important;
 }
-  .btn-size{
-    width: 40%;
-  }  
+ .btn-size{
+    width: 50% !important;
+}
+
 }
 
 @media screen and (min-width:576px) and (max-width:768px){
 
   .btn-size{
-    width: 20%;
+    width: 30%;
   }  
+
 }
